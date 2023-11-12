@@ -9,6 +9,10 @@
       "line_comment": [";"],
       "extensions": ["abnf"]
     },
+    "APL": {
+      "line_comment": ["⍝"],
+      "extensions": ["apl", "aplf", "apla", "aplo", "apln"]
+    },
     "ActionScript": {
       "line_comment": ["//"],
       "multi_line_comments": [["/*", "*/"]],
@@ -146,11 +150,17 @@
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["bean", "beancount"]
     },
+    "Befunge": {
+      "extensions": ["bf"]
+    },
     "Bitbake": {
       "name": "Bitbake",
       "line_comment": ["#"],
       "quotes": [["\\\"", "\\\""], ["'", "'"]],
       "extensions": ["bb", "bbclass", "bbappend", "inc", "conf"]
+    },
+    "Brainfuck": {
+      "extensions": ["b"]
     },
     "BrightScript": {
       "quotes": [["\\\"", "\\\""]],
@@ -696,6 +706,10 @@
       "quotes": [["''", "''"]],
       "extensions": ["thy"]
     },
+    "J": {
+      "line_comment": ["NB."],
+      "extensions": ["ijs"]
+    },
     "Jai": {
       "name": "JAI",
       "line_comment": ["//"],
@@ -899,6 +913,9 @@
       "line_comment": ["#"],
       "extensions": ["makefile", "mak", "mk"],
       "filenames": ["makefile"]
+    },
+    "Malbolge": {
+      "extensions": ["mb"]
     },
     "Markdown": {
       "literate": true,
